@@ -186,7 +186,7 @@
 &kp ESC    &kp Q         &kp W         &kp E            &kp R        &kp T          &kp Y          &kp U                         &kp I            &kp O       &kp P                           &kp DEL
 &kp TAB    &kp A         &kp S         &kp D            &kp F        &kp G          &kp H          &kp J                         &kp K            &kp L       &kp ENTER                       &kp HOME
 &kp LSHFT  &kp Z         &kp X         &kp C            &kp V        &kp B          &kp N          &kp M                         &mkp LCLK        &mkp RCLK   &lt 5 MINUS                     &kp END
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 SPACE      &lt 2 TAB    &to 8          &lt 3 LANG1    &mt2 LANGUAGE_2 LANG_HANGEUL  &kp BACKSPACE    &kp K_MUTE  &mt2 C_VOLUME_UP C_VOLUME_DOWN  &kp PRINTSCREEN
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 SPACE      &lt 2 TAB    &to 8          &lt 3 LANG1    &mt2 LANGUAGE_2 LANG_HANGEUL  &lt 8 BACKSPACE  &kp C_MUTE  &mt2 C_VOLUME_UP C_VOLUME_DOWN  &kp PRINTSCREEN
                          &allow_end    &allow_pagedown  &allow_home  &allow_pageup  &allow_pageup  &allow_home                   &allow_pagedown  &allow_end
             >;
         };
@@ -253,11 +253,11 @@
         MOUSE_L_LAYER {
             display-name = "right_mouse_layer";
             bindings = <
-&trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&mo 5   &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &mkp MB5   &mkp MB4   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -274,11 +274,11 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp SPACE  &trans  &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &kp SPACE  &trans  &to 0   &trans  &trans    &trans    &trans     &trans  &trans
+                &trans  &trans     &trans  &trans  &trans  &trans    &trans    &trans
             >;
 
             label = "game_layer";
