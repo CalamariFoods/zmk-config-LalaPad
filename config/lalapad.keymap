@@ -193,7 +193,7 @@
 &kp ESC    &kp Q      &kp W           &kp E            &kp R        &kp T          &kp Y          &kp U        &kp I            &kp O                          &kp P                 &kp DEL
 &kp TAB    &kp A      &kp S           &kp D            &kp F        &kp G          &kp H          &kp J        &kp K            &lt 5 L                        &mt LCTRL ENTER       &kp HOME
 &kp LSHFT  &kp Z      &kp X           &kp C            &kp V        &kp B          &kp N          &kp M        &mkp LCLK        &mkp RCLK                      &mt LEFT_SHIFT MINUS  &kp END
-&kp LCTRL  &kp LCTRL  &kp LEFT_SHIFT  &lt 1 SPACE      &lt 2 TAB    &kp LEFT_WIN   &lt 3 C_MUTE   &td0         &lt 8 BACKSPACE  &mt C_VOLUME_UP C_VOLUME_DOWN  &mt LALT ESC          &kp PRINTSCREEN
+&kp LCTRL  &kp LCTRL  &kp LEFT_SHIFT  &lt 1 SPACE      &lt 2 TAB    &kp LEFT_WIN   &mo 3          &td0         &lt 8 BACKSPACE  &mt C_VOLUME_UP C_VOLUME_DOWN  &mt LALT ESC          &kp PRINTSCREEN
                       &allow_end      &allow_pagedown  &allow_home  &allow_pageup  &allow_pageup  &allow_home  &allow_pagedown  &allow_end
             >;
         };
