@@ -206,7 +206,7 @@
 &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp N7      &kp N8            &kp N9             &kp N0                &trans
 &trans     &trans        &trans        &trans        &trans        &trans        &kp SEMICOLON  &kp SQT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &trans
 &trans     &trans        &trans        &trans        &trans        &trans        &kp GRAVE      &kp EQUAL   &kp COMMA         &kp PERIOD         &kp SLASH             &trans
-&trans     &trans        &trans        &trans        &trans        &kp CAPS      &trans         &kp DELETE  &kp BACKSPACE     &kp KP_NUMBER_0    &kp NON_US_BSLH       &trans
+&trans     &trans        &trans        &trans        &trans        &kp CAPS      &trans         &kp DELETE  &kp BACKSPACE     &kp KP_NUMBER_0    &kp INT_RO            &trans
                          &trans        &trans        &trans        &trans        &trans         &trans      &trans            &trans
             >;
         };
