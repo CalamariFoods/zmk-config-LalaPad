@@ -182,6 +182,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <14 25>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
