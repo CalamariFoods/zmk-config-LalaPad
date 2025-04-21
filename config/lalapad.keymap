@@ -215,7 +215,7 @@
 &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp N7      &kp N8            &kp N9             &kp N0                &trans
 &trans     &trans        &trans        &trans        &trans        &trans        &kp SEMICOLON  &kp SQT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &trans
 &trans     &trans        &trans        &trans        &trans        &trans        &kp GRAVE      &kp EQUAL   &kp COMMA         &kp PERIOD         &kp SLASH             &trans
-&trans     &trans        &trans        &trans        &trans        &kp CAPS      &trans         &kp DELETE  &kp BACKSPACE     &kp KP_NUMBER_0    &kp INT_RO            &trans
+&trans     &trans        &trans        &trans        &trans        &kp LEFT_WIN  &trans         &kp DELETE  &kp BACKSPACE     &kp KP_NUMBER_0    &kp INT_RO            &trans
                          &trans        &trans        &trans        &trans        &trans         &trans      &trans            &trans
             >;
         };
@@ -290,10 +290,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans     &trans  &trans        &trans  &kp HOME     &kp UP           &kp END        &trans  &trans
-&trans  &trans  &trans  &trans     &trans  &trans        &trans  &kp LEFT     &kp DOWN         &kp RIGHT      &trans  &trans
-&trans  &trans  &trans  &trans     &trans  &trans        &trans  &kp PAGE_UP  &kp PRINTSCREEN  &kp PAGE_DOWN  &trans  &trans
-&trans  &trans  &trans  &kp SPACE  &to 0   &kp LEFT_WIN  &trans  &trans       &trans           &trans         &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans        &trans  &kp HOME     &kp UP           &kp END        &mkp MB4  &trans
+&trans  &trans  &trans  &trans     &trans  &trans        &trans  &kp LEFT     &kp DOWN         &kp RIGHT      &mkp MB5  &trans
+&trans  &trans  &trans  &trans     &trans  &trans        &trans  &kp PAGE_UP  &kp PRINTSCREEN  &kp PAGE_DOWN  &trans    &trans
+&trans  &trans  &trans  &kp SPACE  &to 0   &kp LEFT_WIN  &trans  &trans       &trans           &trans         &trans    &trans
                 &trans  &trans     &trans  &trans        &trans  &trans       &trans           &trans
             >;
 
